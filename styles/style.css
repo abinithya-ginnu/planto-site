@@ -1,0 +1,50 @@
+.ribbon {
+    display: flex;
+    justify-content: center;
+    background: #0D4F2F;
+    height: 30px;
+    align-items: center;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section {
+    height: 105px;
+    background: grey;
+
+    .navigation {
+        display: flex;
+        height: 105px;
+        align-items: center;
+
+        #logo, #profile-login, #cart {
+            width: 75px;
+        }
+
+        .logo{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .nav-link {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: space-evenly;
+        }
+
+        .link1 {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+    }
+}
+
